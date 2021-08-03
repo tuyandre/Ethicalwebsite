@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="72px" viewBox="0 0 74 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 32</title>
+    <desc>Created with Sketch.</desc>
+    <g id="FINAL-WEBSITE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="HOMEPAGE" transform="translate(-150.000000, -2494.000000)">
+            <g id="Group-32" transform="translate(152.000000, 2495.000000)">
+                <g id="Group" transform="translate(0.425506, 0.000000)">
+                    <g id="Search" transform="translate(0.022069, 0.816552)" stroke="#172B4D" stroke-width="3.5">
+                        <circle id="Oval" fill="#FFFFFF" cx="27.3544828" cy="27.3544828" r="27.3544828"></circle>
+                        <path d="M47.36,46.5434483 L54.7089655,53.8924138" id="Path-4"></path>
+                        <path d="M54.4328492,53.6162974 C53.1721633,54.8769833 53.1721633,56.920959 54.4328492,58.1816448 L63.4845621,67.2333577 C64.7452479,68.4940436 66.7892236,68.4940436 68.0499094,67.2333577 C69.3105953,65.9726719 69.3105953,63.9286962 68.0499094,62.6680103 L58.9981966,53.6162974 C57.7375107,52.3556116 55.693535,52.3556116 54.4328492,53.6162974 Z" id="Rectangle"></path>
+                    </g>
+                    <circle id="Oval" stroke="#172B4D" fill="#172B4D" cx="11.752514" cy="36.5527895" r="3.2662069"></circle>
+                    <circle id="Oval-Copy" stroke="#172B4D" fill="#172B4D" cx="21.6428778" cy="21.0383068" r="3.2662069"></circle>
+                    <circle id="Oval-Copy-3" stroke="#172B4D" fill="#172B4D" cx="33.5817255" cy="36.5527895" r="3.2662069"></circle>
+                    <path d="M12.9017255,36.5527895 L21.6428778,21.6386207" id="Line" stroke="#172B4D" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M34.2524138,37.4137931 L39.8479324,16.4428487" id="Line-2" stroke="#172B4D" stroke-width="3" stroke-linecap="square"></path>
+                    <path d="M21.6428778,21.0383068 L33.5817255,36.5527895" id="Line-3" stroke="#172B4D" stroke-width="3" stroke-linecap="square"></path>
+                    <circle id="Oval-Copy-2" stroke="#E80D70" fill="#E80D70" cx="39.8479324" cy="16.4428487" r="3.2662069"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
