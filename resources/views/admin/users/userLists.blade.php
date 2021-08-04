@@ -140,6 +140,22 @@
                             </div>
                         </div>
 
+                        <div class="row row-sm form-group">
+                            <div class="col-lg-12">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            Gender:
+                                        </div>
+                                    </div>
+                                    <select name="gender" class="form-control select2" required>
+                                        <option value="">Select Gender</option>
+                                        <option value="M">Male</option>
+                                        <option value="F">Female</option>
+                                    </select>
+                                 </div>
+                            </div>
+                        </div>
 
                         <div class="row row-sm form-group">
                             <div class="col-lg-12">
@@ -149,7 +165,7 @@
                                             Education:
                                         </div>
                                     </div>
-                                    <select name="education" class="form-control select2">
+                                    <select name="education" class="form-control select2" required>
                                         <option value="">Select Education</option>
                                         <option value="Masters">Masters</option>
                                         <option value="Bachelors">Bachelors</option>

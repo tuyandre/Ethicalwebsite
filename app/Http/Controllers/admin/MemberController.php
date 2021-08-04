@@ -81,6 +81,7 @@ class MemberController extends Controller
         $user->telephone = $request['phone'];
         $user->education = $request['education'];
         $user->fields = $request['fields'];
+        $user->gender = $request['gender'];
         $user->district1 = $request['district1'];
         $user->district2 = $request['district2'];
         $user->district3 = $request['district3'];
