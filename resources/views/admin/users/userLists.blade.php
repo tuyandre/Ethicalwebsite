@@ -41,7 +41,7 @@
 								<th class="wd-20p">Last Name</th>
 								<th class="wd-20p">Email</th>
 								<th class="wd-20p">Telophone</th>
-								<th class="wd-10p">Date</th>
+								<th class="wd-10p">District</th>
 								<th class="wd-10p">Status</th>
 								<th class="wd-10p">Action</th>
 							</tr>
@@ -139,6 +139,75 @@
                                 </div>
                             </div>
                         </div>
+
+
+                        <div class="row row-sm form-group">
+                            <div class="col-lg-12">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            Education:
+                                        </div>
+                                    </div>
+                                    <select name="education" class="form-control select2">
+                                        <option value="">Select Education</option>
+                                        <option value="Masters">Masters</option>
+                                        <option value="Bachelors">Bachelors</option>
+                                        <option value="Advanced A1">Advanced Diploma</option>
+                                        <option value="A2">Secondary Certificate</option>
+                                    </select>
+                                    {{--                                            <input class="form-control" id="textMask" name="first_name" placeholder="First name" type="text" required>--}}
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row row-sm form-group">
+                            <div class="col-lg-12">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            Fields:
+                                        </div>
+                                    </div><input class="form-control" required name="fields" id="phoneMask" placeholder="Fields" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row row-sm form-group">
+                            <div class="col-lg-12">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            First District:
+                                        </div>
+                                    </div><input class="form-control" required name="district1" id="phoneMask" placeholder="First District" type="text">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row row-sm form-group">
+                            <div class="col-lg-12">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            Second District:
+                                        </div>
+                                    </div><input class="form-control"  name="district2" id="district2" placeholder="Second District" type="text">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row row-sm form-group">
+                            <div class="col-lg-12">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <div class="input-group-text">
+                                            Third District:
+                                        </div>
+                                    </div><input class="form-control" name="district3" id="district3" placeholder="Third District" type="text">
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="row row-sm form-group">
                             <div class="col-lg-12">
                                 <div class="input-group">
@@ -198,7 +267,7 @@
                 {data: 'last_name'},
                 {data: 'email'},
                 {data: 'telephone'},
-                {data: 'date'},
+                {data: 'district1'},
                 {data: 'confirmed',
                     render: function (data, type, row) {
                         if(row.confirmed==1){

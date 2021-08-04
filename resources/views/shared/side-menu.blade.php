@@ -1,10 +1,10 @@
 <div class="main-sidebar main-sidebar-sticky side-menu">
 				<div class="sidemenu-logo">
 					<a class="main-logo" href="{{route('home')}}">
-						<img src="{{asset('/dashboard/img/brand/logo-light.png')}}" class="header-brand-img desktop-logo" alt="logo">
-						<img src="{{asset('/dashboard/img/brand/icon-light.png')}}" class="header-brand-img icon-logo" alt="logo">
-						<img src="{{asset('/dashboard/img/brand/logo.png')}}" class="header-brand-img desktop-logo theme-logo" alt="logo">
-						<img src="{{asset('/dashboard/img/brand/icon.png')}}" class="header-brand-img icon-logo theme-logo" alt="logo">
+						<img src="{{asset('/images/logo-wide.png')}}" class="header-brand-img desktop-logo" alt="logo">
+						<img src="{{asset('/images/favicon.ico')}}" class="header-brand-img icon-logo" alt="logo">
+						<img src="{{asset('/images/favicon.ico')}}" class="header-brand-img desktop-logo theme-logo" alt="logo">
+						<img src="{{asset('/images/favicon.ico')}}" class="header-brand-img icon-logo theme-logo" alt="logo">
 					</a>
 				</div>
 				<div class="main-sidebar-body">

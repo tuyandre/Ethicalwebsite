@@ -79,6 +79,11 @@ class MemberController extends Controller
         $user->activated = true;
         $user->email = $request['email'];
         $user->telephone = $request['phone'];
+        $user->education = $request['education'];
+        $user->fields = $request['fields'];
+        $user->district1 = $request['district1'];
+        $user->district2 = $request['district2'];
+        $user->district3 = $request['district3'];
         $user->username = $request['email'];
         $user->password = bcrypt($request['password']);
         $user->save();

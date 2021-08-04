@@ -12,7 +12,8 @@
 	<meta name="author" content="Spruko Technologies Private Limited">
 	<meta name="keywords" content="admin laravel template, template laravel admin, laravel css template, best admin template for laravel, laravel blade admin template, template admin laravel, laravel admin template bootstrap 4, laravel bootstrap 4 admin template, laravel admin bootstrap 4, admin template bootstrap 4 laravel, bootstrap 4 laravel admin template, bootstrap 4 admin template laravel, laravel bootstrap 4 template, bootstrap blade template, laravel bootstrap admin template">
 	<!-- Favicon -->
-	<link rel="icon" href="{{asset('/dashboard/img/brand/favicon.ico')}}" type="image/x-icon" />
+{{--	<link rel="icon" href="{{asset('/dashboard/img/brand/favicon.ico')}}" type="image/x-icon" />--}}
+    <link rel="shortcut icon" href="{{asset('/images/favicon.ico')}}">
 	<!-- Title -->
 	<title>Ethical Research Solutions | @yield('title')</title>
 	<!-- Bootstrap css-->

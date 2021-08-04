@@ -8,7 +8,8 @@
 					</div>
 					<div class="main-header-center">
 						<div class="responsive-logo">
-							<a href="index.html"><img src="{{asset('/dashboard/img/brand/logo.png')}}" class="mobile-logo" alt="logo"></a>
+							<a href="index.html"><img src="{{asset('/images/favicon.ico')}}" class="mobile-logo" alt="logo"></a>
+{{--							<a href="index.html"><img src="{{asset('/dashboard/img/brand/logo.png')}}" class="mobile-logo" alt="logo"></a>--}}
 							<a href="index.html"><img src="{{asset('/dashboard/img/brand/logo-light.png')}}" class="mobile-logo-dark" alt="logo"></a>
 						</div>
 						<div class="input-group">

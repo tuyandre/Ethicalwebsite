@@ -96,9 +96,33 @@
                                                                     <p class="text-muted">{{ $member->email }}</p>
                                                                 </div>
 
-                                                                <div class="col-md-2 col-xs-6 b-r"> <strong>Date of Birth</strong>
+{{--                                                                <div class="col-md-2 col-xs-6 b-r"> <strong>Date of Birth</strong>--}}
+{{--                                                                    <br>--}}
+{{--                                                                    <p class="text-muted">{{ $member->date }}</p>--}}
+{{--                                                                </div>--}}
+
+
+                                                                <div class="col-md-2 col-xs-6 b-r"> <strong>Education</strong>
                                                                     <br>
-                                                                    <p class="text-muted">{{ $member->date }}</p>
+                                                                    <p class="text-muted">{{ $member->education }}</p>
+                                                                </div>
+
+                                                                <div class="col-md-2 col-xs-6 b-r"> <strong>Fields</strong>
+                                                                    <br>
+                                                                    <p class="text-muted">{{ $member->fields }}</p>
+                                                                </div>
+
+                                                                <div class="col-md-2 col-xs-6 b-r"> <strong>First District</strong>
+                                                                    <br>
+                                                                    <p class="text-muted">{{ $member->district1 }}</p>
+                                                                </div>
+                                                                <div class="col-md-2 col-xs-6 b-r"> <strong>Second District</strong>
+                                                                    <br>
+                                                                    <p class="text-muted">{{ $member->district2 }}</p>
+                                                                </div>
+                                                                <div class="col-md-2 col-xs-6 b-r"> <strong>Third District</strong>
+                                                                    <br>
+                                                                    <p class="text-muted">{{ $member->district3 }}</p>
                                                                 </div>
                                                                 <div class="col-md-2 col-xs-6 b-r"> <strong>Status</strong>
                                                                     <br>
