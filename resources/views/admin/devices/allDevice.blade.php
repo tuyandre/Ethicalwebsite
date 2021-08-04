@@ -152,7 +152,7 @@
 									<div class="input-group-prepend">
 										<div class="input-group-text">Select Member:</div>
 									</div>
-									<?php $roles=\App\Models\User::with([ 'Role']) ->whereHas( 'roles', function($q){ $q->where('name', 'member'); } )->get(); ?>
+									<?php $roles=\App\Models\User::with([ 'Role']) ->whereHas( 'roles', function($q){ $q->where('name', 'member')->orWhere('name','senior'); } )->get(); ?>
 									<select name="member" class="form-control select2">
 										<option value="">Select Member</option>@foreach($roles as $role)
 										<option value="{{$role->id}}">{{$role->first_name}} {{$role->last_name}}</option>@endforeach</select>

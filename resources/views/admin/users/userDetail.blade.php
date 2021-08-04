@@ -30,7 +30,7 @@
                                         <center class="mt-4">
 
                                             @if(empty($photo))
-                                                <img src="{{ asset('dashboard/assets/images/users/1.jpg')}}" class="rounded-circle" width="150" />
+                                                <img src="{{ asset('dashboard/img/users/1.jpg')}}" class="rounded-circle" width="150" />
                                             @else
                                                 <img src="{{ asset('uploads/profiles/'.$photo)}}" class="rounded-circle" width="150" />
 
@@ -46,8 +46,6 @@
                                         <h6><a href="{{ $member->email }}" class="__cf_email__" data-cfemail="1f777e71717e7870697a6d5f78727e7673317c7072">{{ $member->email }}</a></h6>
                                         <small class="text-muted pt-4 db">Phone</small>
                                         <h6>{{ $member->telephone }}</h6>
-                                        <small class="text-muted pt-4 db">Address</small>
-                                        <h6>{{ $member->address }}-{{ $member->city }} -{{ $member->state }}- {{ $member->country }}</h6>
 
                                         {{--<small class="text-muted pt-4 db">Social Profile</small>--}}
                                         {{--<br/>--}}
@@ -102,10 +100,6 @@
                                                                     <br>
                                                                     <p class="text-muted">{{ $member->date }}</p>
                                                                 </div>
-                                                                <div class="col-md-2 col-xs-6 b-r"> <strong>Gender</strong>
-                                                                    <br>
-                                                                    <p class="text-muted">{{ $member->gender }}</p>
-                                                                </div>
                                                                 <div class="col-md-2 col-xs-6 b-r"> <strong>Status</strong>
                                                                     <br>
                                                                     @if($member->confirmed===1)
@@ -113,10 +107,6 @@
                                                                         @else
                                                                         <p class="text-muted bg-warning">Not Activated</p>
                                                                     @endif
-                                                                </div>
-                                                                <div class="col-md-3 col-xs-6"> <strong>Location</strong>
-                                                                    <br>
-                                                                    <p class="text-muted">{{ $member->address }}-{{ $member->city }} -{{ $member->state }}- {{ $member->country }}</p>
                                                                 </div>
                                                             </div>
                                                         </div>

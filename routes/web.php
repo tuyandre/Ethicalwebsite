@@ -228,6 +228,12 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::prefix('/Administration/')->group(
     function () {
 
+        Route::post('UserList/saveMember', [
+            'uses' => 'admin\MemberController@saveMember',
+            'as' => 'users.saveMember'
+        ]);
+
+
         //admin project category routes
         Route::get('project/categories', [
             'uses' => 'projects\CategoryController@index',
@@ -391,7 +397,7 @@ Route::prefix('/Administration/')->group(
             'uses' => 'Admin\MemberController@getMembers',
             'as' => 'members.getMembers'
         ]);
-        Route::get('member/detail/{id}', [
+        Route::get('member/detail/{id}/show', [
             'uses' => 'Admin\MemberController@memberDetail',
             'as' => 'members.memberDetail'
         ]);
